@@ -5,22 +5,22 @@ namespace CSharpAssign1
     class Arithmetic
 
     {
-        int additionOfTwoNumbers(int firstTerm, int secondTerm)
+        int TwoNumbersAddition(int firstTerm, int secondTerm)
         {
             return firstTerm + secondTerm;
         }
 
-        int substractionOfTwoNumbers(int firstTerm, int secondTerm)
+        int TwoNumbersSubstraction(int firstTerm, int secondTerm)
         {
             return firstTerm - secondTerm;
         }
 
-        int multiplitionOfTwoNumbers(int firstTerm, int secondTerm)
+        int TwoNumbersMultiplication(int firstTerm, int secondTerm)
         {
             return firstTerm * secondTerm;
         }
 
-        double divisionOfTwoNumbers(int firstTerm, int secondTerm)
+        double TwoNumbersDivision(int firstTerm, int secondTerm)
         {
             return firstTerm / secondTerm;
         }
@@ -28,10 +28,10 @@ namespace CSharpAssign1
         {
           Arithmetic operation = new Arithmetic();
 
-          Console.WriteLine("addition is " +operation.additionOfTwoNumbers(11, 10));
-          Console.WriteLine("substraction is " + operation.substractionOfTwoNumbers(11, 10));
-          Console.WriteLine("multiplication is " + operation.multiplitionOfTwoNumbers(11, 10));
-          Console.WriteLine("division is " + operation.divisionOfTwoNumbers(11, 10));
+          Console.WriteLine("addition is " +operation.TwoNumbersAddition(11, 10));
+          Console.WriteLine("substraction is " + operation.TwoNumbersSubstraction(11, 10));
+          Console.WriteLine("multiplication is " + operation.TwoNumbersMultiplication(11, 10));
+          Console.WriteLine("division is " + operation.TwoNumbersDivision(11, 10));
           Console.ReadLine();
         }
     }
